@@ -1,0 +1,7 @@
+mkdir vjezba4 && cd vjezba 4
+mkdir subfolder
+touch %HOSTNAME
+mv $HOSTNAME $USER
+mv $USER subfolder/
+rm "$(pwd)/subfolder/$USER"
+

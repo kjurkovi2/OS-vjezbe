@@ -1,0 +1,9 @@
+mkdir /mnt/c/Users/kelvi/Documents/vjezba6
+cd /mnt/c/Users/kelvi/Documents/vjezba6
+touch OS_script.md notes.txt && mkdir scripts
+mv os_script.md scripts/
+mv notes.txt todo.txt
+cd scripts
+ls
+rm todo.txt
+
