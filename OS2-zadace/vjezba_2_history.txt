@@ -1,0 +1,99 @@
+  313  ls
+  314  git clone https://github.com/kjurkovi2/OS-vjezbe.git
+  315  ls
+  316  cd OS-vjezbe
+  317  ls -a
+  318  git log
+  319  mkdir OS2-zadace
+  320  cd OS2-zadace
+  321  touch zadatak_1.txt zadatak_2.txt zadatak_3.txt zadatak_4.txt
+  322  ls -a
+  323  git add .
+  324  git status
+  325  git commit -m "Dodani zadaci za Vjezbu 2"
+  326  git log
+  327  git push
+  328  git status
+  329  git push
+  330  git commit -m "Rijesen Zadatak 1"
+  331  ls
+  332  touch vjezba_2.txt
+  333  ls
+  334  git commit -m "Rijesen Zadatak 1"
+  335  git add .
+  336  git commit -m "Rijesen Zadatak 1"
+  337  git push
+  338  ls
+  339  mkdir vjezba_2/data
+  340  mkdir vjezba_2
+  341  ls
+  342  cd vjezba_2
+  343  mkdir data
+  344  mkdir backup
+  345  ls
+  346  touch data/script.js data/style.css data/.env
+  347  ls data
+  348  ls -a data
+  349  echo 'console.log("Hello, World!")' > data/script.js
+  350  echo 'body { background-color: #f0f0f0; }' > data/style.css
+  351  echo 'VJEZBE=OS' > data/.env
+  352  cat data/script.js
+  353  cat data/style.css
+  354  cat data/.env
+  355  ls 
+  356  cd ..
+  357  git add . 
+  358  git commit -m "Rijesen zadatak 2"
+  359  git push
+  360  ls -a 
+  361  cd vjezba_2
+  362  ls -a
+  363  cp -rv data/* data/.[!.]* backup
+  364  cd data
+  365  ls -laS ../backup
+  366  cd ../..
+  367  git add .
+  368  git commit -m "Rijesen zadatak 3"
+  369  git push
+  370  ls
+  371  cd vjezbe_2/data
+  372  cd vjezbe_2
+  373  cd vjezba_2/data
+  374  ls
+  375  ls -a
+  376  rm -iv !(.env)
+  377  cp -nrv ../backup/* ../backup/.[!.]* .
+  378  ls -A -l -t -1
+  379  tree -a
+  380  ls -R
+  381  cd ../..
+  382  git add .
+  383  git commit -m "Rijesen zadatak 4"
+  384  git status
+  385  ls vjezba_2/data
+  386  git commit --allow-empty -m "Rijesen zadatak 4"
+  387  git push
+  388  cd /mnt/c/Arhiva/Osnove\ IKT
+  389  pwd
+  390  ls
+  391  ls -l -h -S
+  392  ls -laS
+  393  tree -a
+  394  sudo apt install tree
+  395  tree -a
+  396  cd
+  397  ls
+  398  cd Documents
+  399  ls
+  400  cd OS_Projects
+  401  ls
+  402  cd git_projects
+  403  ls
+  404  cd OS-vjezbe
+  405  ls
+  406  cd OS2-zadace
+  407  ls
+  408  pwd
+  409  history
+  410  ls
+  411  history | tail -n +313 > vjezba_2_history.txt
