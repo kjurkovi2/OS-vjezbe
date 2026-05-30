@@ -1,0 +1,27 @@
+3. Provjerite jesu li navedeni paketi uspješno instalirani; napišite na crtu kako to možete provjeriti na barem 2 načina na Ubuntu Serveru:
+
+prvi nacin:
+
+node --version
+v22.22.1
+
+npm --version
+9.2.0
+
+drugi nacin:
+
+apt list --installed | grep nodejs
+
+apt list --installed | grep npm
+
+9. Proučite još malo cowsay paket. Konkretno, zanimaju vas dostupne zastavice koje možete koristiti prilikom pozivanja cowsay naredbe. Primjerice, zanima vas kako iscrtati: pohlepnu kravu, umornu kravu, paranoičnu kravu,...? Na crtu napišite sve dostupne zastavice koje ste pronašli.
+
+-b borg
+-d dead
+-g greedy
+-p paranoid
+-s stoned
+-t tired
+-w wired
+-y youthful
+
